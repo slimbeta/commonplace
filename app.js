@@ -97,7 +97,7 @@
   }
 
   function render() {
-    document.querySelectorAll(".sections button").forEach((b) => b.classList.toggle("active", b.dataset.view === view));
+    document.querySelectorAll(".sections button[data-view]").forEach((b) => b.classList.toggle("active", b.dataset.view === view));
     let list = articles;
     if (!list.length) return empty("No picks yet. Check back soon.");
     if (view === "saved") {
@@ -109,7 +109,76 @@
 
   function counts() { $("#saved-count").textContent = saved.size ? `(${saved.size})` : ""; }
 
-  document.querySelectorAll(".sections button").forEach((b) => b.addEventListener("click", () => {
+  // Skim: one story per screen, swiped vertically, with the publisher's own summary text.
+  const skimEl = $("#skim"), track = $("#skim-track"), skimCount = $("#skim-count");
+  let skimObserver = null, pushedSkim = false;
+  function skimCard(a, i, n) {
+    const c = el("article", "skim-card");
+    if (a.image) {
+      const fig = el("figure", "skim-photo"), img = document.createElement("img");
+      img.alt = ""; img.decoding = "async"; img.referrerPolicy = "no-referrer";
+      if (i > 2) img.loading = "lazy";
+      img.src = a.image; img.addEventListener("error", () => fig.remove());
+      fig.append(img); c.append(fig);
+    } else c.classList.add("no-photo");
+    const body = el("div", "skim-body");
+    body.append(el("p", "kicker", a.publication || ""));
+    const hasTitle = a.title && a.title.toLowerCase() !== a.blurb.toLowerCase();
+    body.append(el("h2", "skim-hed", hasTitle ? a.title : a.blurb));
+    if (hasTitle) body.append(el("p", "skim-blurb", a.blurb));
+    const sum = el("div", "skim-summary");
+    if (a.description) sum.append(el("p", "skim-desc", a.description));
+    if (a.excerpt) sum.append(el("p", "skim-excerpt", a.excerpt));
+    if (!a.description && !a.excerpt) sum.append(el("p", "skim-none", "No preview from the publisher \u2014 tap through to read it."));
+    body.append(sum);
+    c.append(body);
+    const foot = el("div", "skim-foot");
+    const go = el("a", "skim-read", "Read the full piece \u2192");
+    go.href = a.url; go.target = "_blank"; go.rel = "noopener";
+    const sv = el("button", "save");
+    sv.type = "button";
+    const paint = () => { const on = saved.has(a.url); sv.setAttribute("aria-pressed", on); sv.textContent = on ? "Saved" : "Save"; };
+    paint();
+    sv.addEventListener("click", () => { saved.has(a.url) ? saved.delete(a.url) : saved.add(a.url); store.set("cp-saved", [...saved]); paint(); counts(); });
+    foot.append(sv, go);
+    c.append(foot);
+    c.dataset.index = i + 1;
+    return c;
+  }
+  function openSkim() {
+    const list = articles.slice(0, 30);
+    if (!list.length) return;
+    track.replaceChildren(...list.map((a, i) => skimCard(a, i, list.length)));
+    const end = el("div", "skim-card skim-end");
+    end.append(el("p", "fleuron", "\u2766"), el("p", "skim-end-text", "You\u2019re all caught up."));
+    const back = el("button", "skim-read", "Back to the front page"); back.type = "button"; back.addEventListener("click", closeSkim);
+    end.append(back); track.append(end);
+    skimEl.hidden = false; document.body.classList.add("skimming");
+    track.scrollTop = 0;
+    skimCount.textContent = `1 of ${list.length}`;
+    skimObserver?.disconnect();
+    skimObserver = new IntersectionObserver((es) => es.forEach((e) => {
+      if (e.isIntersecting && e.target.dataset.index) skimCount.textContent = `${e.target.dataset.index} of ${list.length}`;
+    }), { root: track, threshold: 0.6 });
+    track.querySelectorAll(".skim-card").forEach((c) => skimObserver.observe(c));
+    if (location.hash !== "#skim") { history.pushState(null, "", "#skim"); pushedSkim = true; }
+  }
+  function closeSkim(fromPop) {
+    if (skimEl.hidden) return;
+    skimEl.hidden = true; document.body.classList.remove("skimming");
+    skimObserver?.disconnect();
+    if (fromPop !== true && location.hash === "#skim") {
+      if (pushedSkim) history.back(); else history.replaceState(null, "", location.pathname + location.search);
+    }
+    pushedSkim = false;
+    render();
+  }
+  $("#skim-close").addEventListener("click", closeSkim);
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeSkim(); });
+  window.addEventListener("popstate", () => { if (location.hash !== "#skim") closeSkim(true); });
+  document.querySelector("[data-action=skim]").addEventListener("click", openSkim);
+
+  document.querySelectorAll(".sections button[data-view]").forEach((b) => b.addEventListener("click", () => {
     view = b.dataset.view; store.set("cp-view", view);
     render(); window.scrollTo({ top: 0 });
   }));
@@ -130,6 +199,7 @@
       articles = data.articles || [];
       $("#updated").textContent = `Updated ${ago(data.updated).toLowerCase()}`;
       render();
+      if (location.hash === "#skim" && skimEl.hidden) openSkim();
     } catch (e) {
       if (!articles.length) empty("Couldn’t reach the newsroom. Pull down to try again.");
     }

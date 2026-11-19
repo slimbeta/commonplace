@@ -38,6 +38,7 @@
   <nav class="sections" aria-label="Sections">
     <button data-view="latest" class="active">Latest</button>
     <button data-view="saved">Saved <span id="saved-count"></span></button>
+    <button data-action="skim" class="skim-button">Skim</button>
   </nav>
 
   <div id="content" aria-live="polite">
@@ -49,6 +50,14 @@
     <p>Every pick is chosen by the editors of <a href="https://www.aldaily.com/">Arts &amp; Letters Daily</a>; this is an unofficial reader. Stories open on the publisher&rsquo;s own site.</p>
   </footer>
 </main>
+<section id="skim" class="skim" hidden aria-label="Skim the latest stories">
+  <div class="skim-bar">
+    <span class="skim-title">Skim</span>
+    <span class="skim-count" id="skim-count"></span>
+    <button class="skim-close" id="skim-close" aria-label="Close Skim">Done</button>
+  </div>
+  <div class="skim-track" id="skim-track"></div>
+</section>
 <template id="t-story">
   <article class="story">
     <a class="story-link" target="_blank" rel="noopener">

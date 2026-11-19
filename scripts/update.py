@@ -53,7 +53,7 @@ PUBLICATIONS = {
 }
 
 
-def get(url, limit=400_000, timeout=15):
+def get(url, limit=1_500_000, timeout=15):
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "text/html,application/xml"})
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return r.read(limit).decode("utf-8", "replace")
@@ -83,12 +83,58 @@ def meta(page, prop):
     return None
 
 
+BOILERPLATE = re.compile(
+    r"subscribe|sign up|sign in|log in|newsletter|cookie|advertisement|all rights reserved|"
+    r"support our|donate|your inbox|this article|share this|read more|click here|free trial|"
+    r"\bpodcast\b|listen to|photo(graph)? by|illustration by|getty images|\(c\)|\u00a9|"
+    r"originally appeared|originally published|translated by|own translation|"
+    r"\b\d+ (pp|pages)\b|\bpp\.|\$\d", re.I)
+
+
+def clean(text):
+    text = re.sub(r"<(script|style|figure|figcaption|aside|nav|header|footer)\b.*?</\1>", " ", text, flags=re.S | re.I)
+    text = html.unescape(re.sub(r"<[^>]+>", "", text))
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def opening_paragraphs(page, limit=900):
+    """First few real paragraphs of the story body, as plain text."""
+    body = page
+    m = re.search(r"<article\b.*?</article>", page, re.S | re.I)
+    if m and len(m.group(0)) > 2000:
+        body = m.group(0)
+    body = re.sub(r"<(script|style|aside|nav|header|footer|figure)\b.*?</\1>", " ", body, flags=re.S | re.I)
+    out, total = [], 0
+    for raw in re.findall(r"<p\b[^>]*>(.*?)</p>", body, re.S | re.I):
+        t = clean(raw)
+        if len(t) < 90 or BOILERPLATE.search(t) or t.count(" ") < 12:
+            continue
+        if out and t == out[-1]:
+            continue
+        out.append(t)
+        total += len(t)
+        if total >= limit or len(out) >= 3:
+            break
+    text = " ".join(out)
+    if len(text) > limit + 200:
+        cut = text[:limit + 200]
+        text = cut[: cut.rfind(". ") + 1] or cut.rstrip() + "\u2026"
+    return text
+
+
 def enrich(item):
     try:
         page = get(item["url"])
     except Exception as e:  # paywalls and bot walls are common; the card still works without
         print(f"  no preview for {item['url'][:70]}: {e}", file=sys.stderr)
         return
+    item["fetched"] = True
+    desc = meta(page, "og:description") or meta(page, "description") or meta(page, "twitter:description")
+    if desc and len(desc) > 40 and desc.lower() != item["blurb"].lower():
+        item["description"] = re.sub(r"\s+", " ", desc).strip()
+    excerpt = opening_paragraphs(page)
+    if excerpt and (not desc or excerpt[:60] not in desc):
+        item["excerpt"] = excerpt
     img = meta(page, "og:image") or meta(page, "twitter:image")
     if img and img.startswith("http"):
         item["image"] = img
@@ -120,9 +166,9 @@ def main():
         enrich(item)
         fresh.append(item)
     retried = 0
-    for item in existing["articles"][:40]:
-        if "image" not in item and item.get("tries", 1) < 3:
-            item["tries"] = item.get("tries", 1) + 1
+    for item in existing["articles"][:60]:
+        if not item.get("fetched") and item.get("ftries", 0) < 3:
+            item["ftries"] = item.get("ftries", 0) + 1
             enrich(item)
             retried += 1
     if not fresh and not retried and OUT.exists():

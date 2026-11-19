@@ -126,13 +126,16 @@
     const hasTitle = a.title && a.title.toLowerCase() !== a.blurb.toLowerCase();
     body.append(el("h2", "skim-hed", hasTitle ? a.title : a.blurb));
     if (hasTitle) body.append(el("p", "skim-blurb", a.blurb));
+    const paras = a.paragraphs || (a.excerpt ? [a.excerpt] : []);
     const sum = el("div", "skim-summary");
     if (a.description) sum.append(el("p", "skim-desc", a.description));
-    if (a.excerpt) sum.append(el("p", "skim-excerpt", a.excerpt));
-    if (!a.description && !a.excerpt) sum.append(el("p", "skim-none", "No preview from the publisher \u2014 tap through to read it."));
+    paras.forEach((t, i) => sum.append(el("p", i === 0 && !a.description && /^[A-Za-z]/.test(t) ? "skim-excerpt first" : "skim-excerpt", t)));
+    if (!a.description && !paras.length) sum.append(el("p", "skim-none", "No preview from the publisher \u2014 tap through to read it."));
     body.append(sum);
+
     c.append(body);
     const foot = el("div", "skim-foot");
+    if (paras.length) foot.append(el("p", "skim-cont", `Continues at ${a.publication || "the source"}`));
     const go = el("a", "skim-read", "Read the full piece \u2192");
     go.href = a.url; go.target = "_blank"; go.rel = "noopener";
     const sv = el("button", "save");
@@ -140,7 +143,7 @@
     const paint = () => { const on = saved.has(a.url); sv.setAttribute("aria-pressed", on); sv.textContent = on ? "Saved" : "Save"; };
     paint();
     sv.addEventListener("click", () => { saved.has(a.url) ? saved.delete(a.url) : saved.add(a.url); store.set("cp-saved", [...saved]); paint(); counts(); });
-    foot.append(sv, go);
+    const actions = el("div", "skim-actions"); actions.append(sv, go); foot.append(actions);
     c.append(foot);
     c.dataset.index = i + 1;
     return c;
@@ -159,7 +162,7 @@
     skimObserver?.disconnect();
     skimObserver = new IntersectionObserver((es) => es.forEach((e) => {
       if (e.isIntersecting && e.target.dataset.index) skimCount.textContent = `${e.target.dataset.index} of ${list.length}`;
-    }), { root: track, threshold: 0.6 });
+    }), { root: track, rootMargin: "-35% 0px -60% 0px" });
     track.querySelectorAll(".skim-card").forEach((c) => skimObserver.observe(c));
     if (location.hash !== "#skim") { history.pushState(null, "", "#skim"); pushedSkim = true; }
   }

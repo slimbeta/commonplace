@@ -97,7 +97,7 @@ def clean(text):
     return re.sub(r"\s+", " ", text).strip()
 
 
-def opening_paragraphs(page, limit=900):
+def opening_paragraphs(page, limit=3000, most=10):
     """First few real paragraphs of the story body, as plain text."""
     body = page
     m = re.search(r"<article\b.*?</article>", page, re.S | re.I)
@@ -113,13 +113,9 @@ def opening_paragraphs(page, limit=900):
             continue
         out.append(t)
         total += len(t)
-        if total >= limit or len(out) >= 3:
+        if total >= limit or len(out) >= most:
             break
-    text = " ".join(out)
-    if len(text) > limit + 200:
-        cut = text[:limit + 200]
-        text = cut[: cut.rfind(". ") + 1] or cut.rstrip() + "\u2026"
-    return text
+    return out
 
 
 def enrich(item):
@@ -132,9 +128,13 @@ def enrich(item):
     desc = meta(page, "og:description") or meta(page, "description") or meta(page, "twitter:description")
     if desc and len(desc) > 40 and desc.lower() != item["blurb"].lower():
         item["description"] = re.sub(r"\s+", " ", desc).strip()
-    excerpt = opening_paragraphs(page)
-    if excerpt and (not desc or excerpt[:60] not in desc):
-        item["excerpt"] = excerpt
+    paras = opening_paragraphs(page)
+    if paras and desc and paras[0][:60] in desc and len(paras[0]) <= len(desc) + 20:
+        paras = paras[1:]  # the description already says it
+    item.pop("excerpt", None)
+    if paras:
+        item["paragraphs"] = paras
+    item["v"] = 2
     img = meta(page, "og:image") or meta(page, "twitter:image")
     if img and img.startswith("http"):
         item["image"] = img
@@ -167,7 +167,7 @@ def main():
         fresh.append(item)
     retried = 0
     for item in existing["articles"][:60]:
-        if not item.get("fetched") and item.get("ftries", 0) < 3:
+        if item.get("v", 1) < 2 and item.get("ftries", 0) < 3:
             item["ftries"] = item.get("ftries", 0) + 1
             enrich(item)
             retried += 1

@@ -16,6 +16,7 @@
   --accent:#e0675d; --panel:#221f18; --focus:#8cc0e6; color-scheme:dark}
 
 *{box-sizing:border-box}
+[hidden]{display:none!important}
 html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--serif);
   -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;font-feature-settings:"kern","liga","onum"}
@@ -135,24 +136,28 @@ body.skimming{overflow:hidden}
 .skim-title{font-family:var(--display);font-size:22px}
 .skim-count{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
 .skim-close{justify-self:end;min-height:44px;padding:0 4px;font-size:13px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
-.skim-track{flex:1;min-height:0;overflow-y:auto;scroll-snap-type:y mandatory;overscroll-behavior:contain;-webkit-overflow-scrolling:touch}
-.skim-card{height:100%;scroll-snap-align:start;scroll-snap-stop:always;display:flex;flex-direction:column;
-  max-width:680px;margin:0 auto;padding:0 max(16px,env(safe-area-inset-left)) calc(12px + env(safe-area-inset-bottom))}
-.skim-photo{flex:0 0 auto;height:30%;min-height:120px;margin:0 calc(-1 * max(16px,env(safe-area-inset-left)));overflow:hidden;background:var(--panel)}
+.skim-track{flex:1;min-height:0;overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch}
+.skim-card{max-width:640px;margin:0 auto;padding:0 max(18px,env(safe-area-inset-left)) 34px;border-bottom:1px solid var(--line)}
+.skim-card+.skim-card{padding-top:30px}
+.skim-photo{aspect-ratio:3/2;margin:0 calc(-1 * max(18px,env(safe-area-inset-left)));overflow:hidden;background:var(--panel)}
 .skim-photo img{width:100%;height:100%;object-fit:cover;display:block}
-.skim-body{flex:1;min-height:0;overflow:hidden;padding-top:18px;position:relative;
-  -webkit-mask-image:linear-gradient(to bottom,#000 82%,transparent);mask-image:linear-gradient(to bottom,#000 82%,transparent)}
-.skim-card.no-photo .skim-body{padding-top:32px}
-.skim-hed{font-family:var(--display);font-weight:400;font-size:28px;line-height:1.1;letter-spacing:-.3px;text-wrap:balance}
-.skim-card.no-photo .skim-hed{font-size:34px}
-.skim-blurb{font-style:italic;color:var(--deck);font-size:16px;line-height:1.4;margin-top:10px;padding-bottom:14px;border-bottom:1px solid var(--line)}
-.skim-summary{margin-top:14px;font-size:16.5px;line-height:1.55}
-.skim-desc{font-weight:700;margin-bottom:10px}
-.skim-excerpt{color:var(--ink)}
+.skim-body{padding-top:18px}
+.skim-card.no-photo .skim-body{padding-top:6px}
+.skim-hed{font-family:var(--display);font-weight:400;font-size:32px;line-height:1.08;letter-spacing:-.3px;text-wrap:balance}
+.skim-blurb{font-style:italic;color:var(--deck);font-size:17px;line-height:1.45;margin-top:10px;padding-bottom:16px;border-bottom:1px solid var(--line)}
+.skim-summary{margin-top:18px}
+.skim-desc{font-weight:700;font-size:18px;line-height:1.5;margin-bottom:1em}
+.skim-excerpt{font-size:18px;line-height:1.62;hyphens:auto;-webkit-hyphens:auto}
+.skim-excerpt+.skim-excerpt{margin-top:1em}
+.skim-excerpt.first::first-letter{font-family:var(--display);float:left;font-size:3.6em;line-height:.82;padding:6px 8px 0 0;color:var(--accent)}
 .skim-none{color:var(--muted);font-style:italic}
-.skim-foot{flex:0 0 auto;display:flex;align-items:center;justify-content:space-between;gap:12px;padding-top:12px;border-top:1px solid var(--line)}
+.skim-foot{margin-top:22px}
+.skim-cont{font-style:italic;color:var(--muted);font-size:15px;margin-bottom:12px}
+.skim-cont::before{content:"\2026\00a0"}
+.skim-actions{display:flex;align-items:center;justify-content:space-between;gap:12px}
 .skim-read{font-family:var(--sans);font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;
   background:var(--ink);color:var(--paper);padding:12px 16px;border-radius:2px;text-align:center}
-.skim-end{justify-content:center;align-items:center;text-align:center;gap:14px}
+.skim-end{display:flex;flex-direction:column;align-items:center;text-align:center;gap:14px;padding:50px 18px 80px;border-bottom:0}
 .skim-end-text{font-family:var(--display);font-size:26px}
-@media (min-width:721px){.skim-photo{margin:0;margin-top:20px}.skim-hed{font-size:36px}}
+@media (min-width:721px){.skim-photo{margin:0;margin-top:20px}.skim-hed{font-size:40px}}
+

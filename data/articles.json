@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T01:28:02+00:00",
+ "updated": "2026-11-19T01:32:47+00:00",
  "articles": [
   {
    "url": "https://www.wsj.com/arts-culture/books/the-letters-of-robert-frost-volume-4-review-the-roads-not-spoken-6d68ea23?st=gCT5bn&reflink=desktopwebshare_permalink",
@@ -7,7 +7,7 @@
    "publication": "The Wall Street Journal",
    "seen": "2026-11-19T01:03:44+00:00",
    "tries": 2,
-   "ftries": 1
+   "ftries": 2
   },
   {
    "url": "https://harpers.org/archive/2026/12/too-much-sense-lauren-oyler-barthelme-postmodernism/",
@@ -16,9 +16,16 @@
    "seen": "2026-11-19T01:03:44+00:00",
    "image": "https://wp.harpers.org/wp-content/uploads/2026/12/CUT-38_Final.jpg",
    "title": "Too Much Sense, by Lauren Oyler",
-   "ftries": 1,
+   "ftries": 2,
    "fetched": true,
-   "excerpt": "I was at the Korean restaurant with Kris. The book review walked in, drenched, unspeaking. “The way to do it would be to read a couple a day starting now. Maybe some days I’d have to do three.” Weeks later, the book review spoke, dryly: “In the competing methodologies of contemporary criticism, many of them quite rich in implications, a sort of tyranny of great expectations obtains, a rage for final explanations, a refusal to allow a work that mystery which is essential to it.”"
+   "paragraphs": [
+    "I was at the Korean restaurant with Kris. The book review walked in, drenched, unspeaking.",
+    "“The way to do it would be to read a couple a day starting now. Maybe some days I’d have to do three.”",
+    "Weeks later, the book review spoke, dryly: “In the competing methodologies of contemporary criticism, many of them quite rich in implications, a sort of tyranny of great expectations obtains, a rage for final explanations, a refusal to allow a work that mystery which is essential to it.”",
+    "Yes, I replied. It’s still true. The biggest problem in Anglophone literature today is that it is boring. It has gotten more boring since Donald Barthelme wrote this line in his 1985 essay “Not-Knowing.” It’s boring for many of the same reasons now as then. Writers and critics express a childish resistance to seeing writing as art, a fear of “not-knowing” that produces immediately legible achievements, or at least competence, organized in normal, immediately legible ways. Writers must avoid surprise, irritation, or confusion; critics even more. Why is this happening? The same reasons we give for all our problems now: internet, AI, capitalism. (In 1985, capitalism was also an issue.) One downstream problem is that, increasingly, people can’t read. This is embarrassing for them—books are still considered cool, somehow, thanks to the same platforms that have distracted us from actually reading them—and distressing to those of us who do it professionally. A result is that literature has become aesthetically conservative. Among the high-minded, modernism, which is a hundred years old, is trendy, albeit best left mimicked by Europeans and the very brave, while postmodernism is treated as an aberrant joke, most often ignored or, in the case of a few canonized male novelists, tolerated. Among the rest of the literary world—publishers, editors, writers—there remains an imperative to make it easier for people to read. The idea is to give them more of what they’re used to, something to which they can’t object, clear prose and recognizable stories. Jane Austen has a proven track record. George Eliot stands the test of time. We should be writing like them! But in simpler language, of course, that a teenager who mainly reads automatically generated captions on TikTok could follow, that leaves no space for misunderstandings, multiple interpretations, or fun.",
+    "In May of this year, Picador reissued two short-story anthologies that Barthelme himself compiled while he was alive, Sixty Stories and Forty Stories. The book review is making me state this directly, though I’d prefer to be more oblique, as the subject, an inveterate postmodernist, demands. It’s a little weird that basically no critic or literary journalist seems to have covered these reissues. In the recent past, I don’t think this would have been the case. Many of these stories are beloved by writers and students of writing especially, and he published 129 stories in The New Yorker, plus lots of Comment pieces, before his death in 1989. Because his books are not literally big—most of the stories here are just a few pages long—he has so far avoided the vulgar re[ap]pr[a]isals that have come for many “difficult” male authors of the twentieth century; liking him comes with no social stigma. His difficulty is sort of smoothed over in favor of celebrating the most coherent, and teachable, spots in his oeuvre: the shining stories smudged with just enough oddness to make them easy to love, among them “The Balloon,” “Game,” “Some of Us Had Been Threatening Our Friend Colby,” “The School,” and some of the domestic stories, like “Chablis.” This last is pretty much just a funny, if searching, monologue by an uneasy husband about how his wife wants a dog “for that damn baby.” “What’s that baby going to do with that dog that it can’t do with me?” the narrator wonders. “Romp? I can romp.”"
+   ],
+   "v": 2
   },
   {
    "url": "https://www.chronicle.com/article/everybody-is-going-to-be-made-obsolete",
@@ -26,7 +33,7 @@
    "publication": "The Chronicle of Higher Education",
    "seen": "2026-11-19T01:03:44+00:00",
    "tries": 2,
-   "ftries": 1
+   "ftries": 2
   },
   {
    "url": "https://worksinprogress.co/issue/accidental-discoveries/?v4",
@@ -35,10 +42,17 @@
    "seen": "2026-11-19T01:03:44+00:00",
    "image": "https://worksinprogress.co/wip-image/uploads/2026/11/Column_Saloni_Sharecard.jpg",
    "title": "Science isn't a series of lucky accidents",
-   "ftries": 1,
+   "ftries": 2,
    "fetched": true,
    "description": "Let the facts spoil a good dinner party story.",
-   "excerpt": "People love accidental discoveries. Penicillin’s discovery by Alexander Fleming is a classic example. Fungal spores wafted in through an open window, fell onto a plate of bacterial colonies, and dissolved them. Another is Louis Pasteur’s discovery of a chicken cholera vaccine, the second vaccine ever developed. After Pasteur left a broth overexposed to oxygen, it went stale. But he ran out of fresh broth, so used it anyway to study the effects of an infection, and found, surprisingly, that it protected the chickens. Or how about the discovery of X-rays? Wilhelm Röntgen was working with a cathode ray tube in a dark room when he suddenly noticed a screen glowing nearby, even though he’d wrapped the tube in cardboard. Though they’re great stories, I’ve come to believe none of them happened that way. Röntgen had his notes burned after his death, and the story is just a hypothesis. Pasteur was extremely secretive as well, and forbade his family from making his notes and letters public after his death."
+   "paragraphs": [
+    "People love accidental discoveries. Penicillin’s discovery by Alexander Fleming is a classic example. Fungal spores wafted in through an open window, fell onto a plate of bacterial colonies, and dissolved them. Another is Louis Pasteur’s discovery of a chicken cholera vaccine, the second vaccine ever developed. After Pasteur left a broth overexposed to oxygen, it went stale. But he ran out of fresh broth, so used it anyway to study the effects of an infection, and found, surprisingly, that it protected the chickens. Or how about the discovery of X-rays? Wilhelm Röntgen was working with a cathode ray tube in a dark room when he suddenly noticed a screen glowing nearby, even though he’d wrapped the tube in cardboard.",
+    "Though they’re great stories, I’ve come to believe none of them happened that way. Röntgen had his notes burned after his death, and the story is just a hypothesis. Pasteur was extremely secretive as well, and forbade his family from making his notes and letters public after his death. His grandson, however, did, and after poring over their contents, historians have found that the key experiments were done deliberately by Pasteur’s then-assistant Émile Roux while Pasteur was away for his daughter’s wedding.",
+    "And what about Fleming? His first paper describing penicillin in 1929 never says where the spores came from. Of course, it’s hard to see how he could have known, given they would have been microscopic. But Fleming first told the window story in an interview in 1945, sixteen years after his first report, and his colleagues testified the window was ‘seldom if ever opened’. They weren’t able to replicate the discovery as he described, either: penicillin would have needed to be present on the plate before the bacteria grew, because it blocks bacteria from building their cell walls, rather than killing them once they’ve grown.",
+    "Several people have tried to work out what really happened. Fleming’s would-be biographer Ronald Hare made dozens of attempts and found just one reliable way to reproduce the discovery that fit the facts. The spores, he argues, were an unusually productive strain; came from the lab of a fungal researcher on the floor below, rather than the window; settled on the plate roughly when Fleming seeded it with bacteria; Fleming forgot to incubate it; and all this happened during a cold spell in the summer that let the mold grow before the bacteria. Hare noted how much more serendipitous this sequence of events was: ‘the odds against the occurrence of the phenomenon become almost astronomical’, though he ultimately believed it. While writing this column, I read through many of his notes and letters archived at the Wellcome Library and have come to agree with his view: Hare was exceedingly careful in corroborating the events from multiple people and sources from the time.",
+    "Part of the reason I find the popular stories fascinating is because it’s jarring to realize how little they’re based on. I do expect some stories of accidental discovery will survive the test of time. In medicine, for example, it’s fairly common to test a drug for one disease and find, unexpectedly, that it works for another: colchicine was used for centuries to treat gout before it was found effective against cardiovascular disease, and sildenafil (Viagra) was being tested for angina when its more famous effect was noticed. Side effects are difficult to predict."
+   ],
+   "v": 2
   },
   {
    "url": "https://www.thenation.com/article/society/peter-mancall-contested-continent-native-history-north-america/",
@@ -47,9 +61,16 @@
    "seen": "2026-11-19T01:03:44+00:00",
    "image": "https://www.thenation.com/wp-content/uploads/2026/10/Blackhawk-Mancall-SMITH.jpg",
    "title": "Rethinking the Early History of North America",
-   "ftries": 1,
+   "ftries": 2,
    "fetched": true,
-   "description": "Peter Mancall’s new book reframes the history of the American continent as a zone of encounters between Native peoples, European empires, and African societies."
+   "description": "Peter Mancall’s new book reframes the history of the American continent as a zone of encounters between Native peoples, European empires, and African societies.",
+   "paragraphs": [
+    "Another date that has seen a dramatic shift in how it has been memorialized is 1776. Synonymous with the founding of the United States, 1776 has been treated by generations of Americans as part of a broader civilizational story: the westward expansion of European peoples, institutions, and political traditions. Within that framework, national commemorations form essential chapters in a single narrative linking European arrival to nationhood, thus blurring the distinction between the history of Europeans in what would become North America and the history of the United States itself.",
+    "But over the past 40 or so years, a remarkable shift has occurred. More recent interpretations attempt to disentangle the history of colonization from that of the US Constitution. In this view, the United States is understood less as the political expression of European settlement than as a particular constitutional project: one grounded in republican government, in the institutions and philosophies articulated in the Declaration and then codified in the Constitution. Such interpretations do not deny the centrality of European colonization to the nation; rather, they critically reexamine North American and US history to foreground the peoples excluded, displaced, or subordinated by it. Native nations, enslaved Africans, and non-Anglo populations claimed as well as rejected the United States. In this interpretive framework, the history of the United States is not reducible to the history of Europeans in North America, even if European settlement formed its precondition.",
+    "The 12-hour PBS series The American Revolution reflects this interpretive shift. Its opening episodes foreground historians of Native America, seeking to widen the traditional narrative beyond a familiar story of colonial resistance to Britain. In doing so, the series implicitly asks whether 1776 should be remembered primarily as the triumph of a particular people in its struggle toward self-government, or as the beginning of a contingent experiment in such government. With more than half a dozen historians of Native America foregrounding the latter, the series details how the republic was founded, witnessed, and carried forward by a range of peoples and perspectives—peoples and perspectives that became more diverse with continental expansion.",
+    "Into this interpretive fray comes the latest offering in the venerable Oxford History of the United States, a now 10-volume series that, in the words of its publisher, “blends social, political, economic, cultural, diplomatic, and military history into coherent and vividly written narrative.” Initiated under the coeditorship of C. Vann Woodward and Richard Hofstadter in the 1960s, the series has become in many ways the Cadillac of US historical production: tomes written by master craftsmen without a female or minority author among them (yet). The books are not necessarily flashy but instead reflect the boxy and somewhat stodgy assumptions of the postwar historiography from which the series was born: sweeping national narratives organized around the development of the United States as a political, constitutional, and national project."
+   ],
+   "v": 2
   },
   {
    "url": "https://thepointmag.com/examined-life/the-part-about-the-machines/",
@@ -58,9 +79,17 @@
    "seen": "2026-11-19T01:03:44+00:00",
    "image": "https://thepointmag.com/wp-content/uploads/2026/11/3208424950_484571e874_o-1-scaled.jpg",
    "title": "The Part About the Machines",
-   "ftries": 1,
+   "ftries": 2,
    "fetched": true,
-   "description": "The news has already traveled the world, but for those who haven’t yet heard: three weeks ago, El País published an article declaring that the award-winning novel Donde el agua trabaja, by Peruvian writer David Silva Rojas, was, according to Pangram, 99 percent AI-generated."
+   "description": "The news has already traveled the world, but for those who haven’t yet heard: three weeks ago, El País published an article declaring that the award-winning novel Donde el agua trabaja, by Peruvian writer David Silva Rojas, was, according to Pangram, 99 percent AI-generated.",
+   "paragraphs": [
+    "The news has already traveled the world, but for those who haven’t yet heard: three weeks ago, El País published an article declaring that the award-winning novel Donde el agua trabaja, by Peruvian writer David Silva Rojas, was, according to Pangram, 99 percent AI-generated. The program also attributed 97 percent of the author’s answers in a subsequent interview to AI. A personal essay about his writing process: 80 percent AI. And the author’s Instagram post denying his use of artificial intelligence: 84 percent AI.",
+    "On November 6th, the Mexican publishing house Almadía reaffirmed its decision to give Silva Rojas the award and publish the book, following what it said was an examination of the “materials provided by the author.” Its statement did not specify which materials, nor did it detail what findings led the publisher to uphold the award.",
+    "Silva Rojas’s novel is about a young Peruvian woman who leaves Ayacucho, a southern Andean town, to work the land of a winery in the coastal region of Ica. Since most of the discussion surrounding the novel has been monomaniacally focused on identity, it’s perhaps appropriate to mention that I am a young Peruvian woman, that my entire family is from Ayacucho and Ica, and that many of my relatives—my parents in their youth, my uncles for many years, and my grandparents and great-grandparents for nearly their entire lives—have been agricultural workers. And also that, thanks to the great escalator that is social mobility, I have had one foot in San Francisco for over four years, and have spent much of that time reporting on and following the artificial-intelligence gold rush.1Two additional facts reveal how close this story is to my own life. First: I did my first journalistic internship at El País in mid-2024, although I no longer have any professional ties to the newspaper, nor am I trying to defend it here. Second: like Silva Rojas, I lived in Japan for several years, although I didn’t return writing like Bashō.",
+    "As a Peruvian, I can say that Donde el agua trabaja relies on mawkish clichés about the working-class experience in Ica. As a reader, I can say it’s a pretty bad book. And as someone who has spent years in and around the tech world, I can say that, despite Almadía’s statements, it’s hard to believe the novel wasn’t written with the help of artificial intelligence. But as a Latin American writer I’d like to point out something much more concerning. The reaction to these events has been a display of ignorance and obscurantism on the part of many intellectuals from our continent, who have claimed that Pangram “doesn’t work,” who have insisted that the “attack” on Silva is nothing more than a display of racism, and who have, in short, made it clear that what they truly want is to bury their heads in the sand and refuse to confront—beyond the scandal of the new—the arrival of this new technology.",
+    "As soon as El País published its report, certain writers proclaimed that AI detectors were also flagging as AI-generated the first page of Frankenstein or the U.S. Constitution. Yet their screenshots came not from Pangram but from TextGuard, a tool that (as an AFP investigation revealed earlier this year) misclassifies human text as AI-generated to then charge its user to “humanize” it. Said differently: those writers spread misinformation based on a fraudulent program. It didn’t matter. Their images went viral, and fueled the popular and erroneous notion that it is impossible to detect AI-written text.2I am not adding the link to these tweets, or to any of the other texts I am criticizing, because my interest here is not to accuse any author, but to show a tragic general trend."
+   ],
+   "v": 2
   },
   {
    "url": "https://www.theguardian.com/books/2026/nov/15/she-was-a-monster-the-real-patricia-highsmith-by-the-people-who-knew-her",
@@ -69,9 +98,18 @@
    "seen": "2026-11-19T01:03:44+00:00",
    "image": "https://i.guim.co.uk/img/media/3629c8cc3fb810d88d14476f6ea692dd19f18fdb/0_0_3540_2831/master/3540.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=50c8cd9aea5c11216072f9db90bab524",
    "title": "‘She was a monster’: the real Patricia Highsmith, by the people who knew her",
-   "ftries": 1,
+   "ftries": 2,
    "fetched": true,
-   "description": "A new film starring Helen Mirren explores the Ripley writer’s later years, but was she really so rude and eccentric? Editors and publishers who worked with her look back"
+   "description": "A new film starring Helen Mirren explores the Ripley writer’s later years, but was she really so rude and eccentric? Editors and publishers who worked with her look back",
+   "paragraphs": [
+    "Publisher and bookseller Otto Penzler has loved Patricia Highsmith’s work all his life, but their first meeting was a washout. In 1984, she agreed to give a reading at The Mysterious Bookshop, his store on West 56th Street in New York. The American author of the Ripley novels, then 63, had lived in Europe for 20 years – in England, then France, then Switzerland – and seldom made public appearances, so he had high hopes.",
+    "“But no one showed up. We had maybe four people,” Penzler says from his book-lined office under the shop. Now 84, with a tidy white beard and a warm, amused manner, he is just back from a crime fiction convention and still very much in the game. Highsmith, he recalls, had little time for her readers. “She was somewhat taciturn. People got their book signed and left within five minutes. I had a two-hour event scheduled, so what does one do? With some authors, I can say, ‘Let me buy you dinner.’ Well, not with Pat.” She stonewalled his small talk about France with an “I can’t stand the bloody frogs”.",
+    "Highsmith, who was born in Fort Worth, Texas, in 1921, had a hit with her 1950 debut, Strangers on a Train, boosted by Alfred Hitchcock’s film. A perfect second novel, lesbian road trip The Price of Salt (later republished as Carol), sold a million copies under the pseudonym Claire Morgan, and The Talented Mr Ripley (1955) was a critical success. But around the mid-1960s, Highsmith’s American luck ran out: her agent wrote that her books were “too subtle”, her characters too unlikable, to make it into paperback. By 1984 she was without an American publisher.",
+    "“She never found a home because she was so unpleasant,” Penzler says. “I don’t think anybody said, ‘Oh look, we’re losing money but I love her so much, let’s keep her.’” Not yet knowing this, he signed a six-book deal with Highsmith, creating a new imprint in the process. “Pat didn’t want to be identified as a mystery writer, so I started Penzler Books.” He knew Highsmith’s first editor, Joan Kahn. “When I told her I’d bought Pat, she said: ‘God, what’s wrong with you?’ Later we agreed she was a monster.”",
+    "In Anton Corbijn’s new film A Talent for Murder, adapted from Joanna Murray-Smith’s 2014 play, Switzerland, a dying Highsmith is played by Helen Mirren, who nails her physicality with dark contact lenses, a wig and a way of seeming to make her neck disappear. By 1995, when the film is set, Highsmith had lived alone for years, ending her last relationship with the translator Monique Buffet, then 27, when she was 66. Tortured by her sexuality, unrequited love and a poisonous mother, happiness largely eluded her.",
+    "The film’s premise is that a young American editor must persuade Highsmith to write one last Ripley novel: if she signs, his job is guaranteed and her uncertain legacy assured. It’s a fiction, of course, though lovingly built on real details, from the water glasses filled with cigarettes to her tank of pet snails and the Bond villain bunker she designed."
+   ],
+   "v": 2
   },
   {
    "url": "https://www.theatlantic.com/magazine/2026/12/aquaterra-ancient-human-migration/689029/?gift=2DPnH7-w5PunRuGFjgT5W-m3JXZDsV5PdxKRtZkm57k&utm_source=copy-link&utm_medium=social&utm_campaign=share",
@@ -79,7 +117,7 @@
    "publication": "The Atlantic",
    "seen": "2026-11-19T01:03:44+00:00",
    "tries": 2,
-   "ftries": 1
+   "ftries": 2
   },
   {
    "url": "https://theamericanscholar.org/the-knifes-edge/",
@@ -88,9 +126,16 @@
    "seen": "2026-11-19T01:03:44+00:00",
    "image": "https://theamericanscholar.org/wp-content/uploads/2026/11/StillLifewithFigsandBread.png",
    "title": "The Knife’s Edge",
-   "ftries": 1,
+   "ftries": 2,
    "fetched": true,
-   "excerpt": "In October 2016, a colleague phoned Roger Berkowitz, a professor of politics and human rights at Bard College and the founding director of the Hannah Arendt Center, to warn him. A public letter was circulating, accusing Berkowitz of giving a platform to fascism: He had invited a German philosophy professor, by then a member of the far-right Alternative für Deutschland (AfD), to a conference at Bard. Fifty-six political theorists signed the letter, including the colleague who called. She told him that there was no space in the present moment for views so out of keeping with what the liberal left took to be self-evident. She hoped, however, that they could still be friends. “You have my number,” he told her. “If you disagreed with me, you could have called me before you signed a public letter against me.” The exchange opens Berkowitz’s new book, A World We Share, which details the political philosopher Hannah Arendt’s sometimes stormy friendships."
+   "paragraphs": [
+    "In October 2016, a colleague phoned Roger Berkowitz, a professor of politics and human rights at Bard College and the founding director of the Hannah Arendt Center, to warn him. A public letter was circulating, accusing Berkowitz of giving a platform to fascism: He had invited a German philosophy professor, by then a member of the far-right Alternative für Deutschland (AfD), to a conference at Bard. Fifty-six political theorists signed the letter, including the colleague who called. She told him that there was no space in the present moment for views so out of keeping with what the liberal left took to be self-evident. She hoped, however, that they could still be friends. “You have my number,” he told her. “If you disagreed with me, you could have called me before you signed a public letter against me.”",
+    "The exchange opens Berkowitz’s new book, A World We Share, which details the political philosopher Hannah Arendt’s sometimes stormy friendships. In it, Berkowitz expresses a vitally important position on friendship, drawing a sharp distinction between his view and that of his colleague. “For her, friendship meant loyalty to a common cause,” he writes, but “for me, it meant loyalty to a shared world.” This slim, elegant book about Arendt’s life among her friends is likewise an attempt to state clearly what her example has to teach us and why it matters more now than it has in a long time.",
+    "The usual story is that friendship rests on shared values. We like the people who see the world as we do, and when they stop seeing it that way, something has gone wrong with the friendship. The sorting of American life into tribes has quietly made this model official: Friendship is the private face of agreement, and agreement always comes first. Berkowitz thinks this is exactly backwards, and he has Arendt to prove it.",
+    "In 1946, she sent Gershom Scholem her essay “Zionism Reconsidered.” He was furious, accused her of betraying her people, and demanded that she recant. She defended herself but ended her reply not with an argument but with a question: Could they still be friends? She warned him against becoming “a fanatic for truth,” said he had unleashed “an orgy of truth-telling,” and wrote the sentence Berkowitz’s book keeps returning to: “A human being is far more valuable than his opinions.” In 1963, after Arendt published Eichmann in Jerusalem, Scholem charged her with lacking love for the Jewish people. She agreed. “I love in fact only my friends and am fully incapable of any other love.” A people, she said, is an abstraction. One cannot love it. Friendship is loyalty to particular persons, not to positions, and that is why Arendt thought it a sturdier foundation for a shared world than truth, certainty, or being right.",
+    "What keeps the book from being one more plea for civility is a phrase Arendt wrote to Kurt Blumenfeld that same year. She had also sent him “Zionism Reconsidered,” knowing he would hate it, and waited five months for a reply that didn’t arrive. “Friendship,” she finally wrote him, “is rare enough, and it is not to be except on the knife’s edge.” Berkowitz takes the phrase for a chapter title, and it is the real center of his argument."
+   ],
+   "v": 2
   },
   {
    "url": "https://rosselliotbarkan.com/p/the-end-of-the-editor",
@@ -99,10 +144,15 @@
    "seen": "2026-11-19T01:03:44+00:00",
    "image": "https://substackcdn.com/image/fetch/$s_!37gH!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4448325f-e930-4942-84f8-639c13c5bdd8_1024x683.jpeg",
    "title": "The End of the Editor",
-   "ftries": 1,
+   "ftries": 2,
    "fetched": true,
    "description": "On the death of Gary Fisketjon and the rise of Committee Thought",
-   "excerpt": "The sudden death of Gary Fisketjon is a major loss for the literary world. He was, certainly, one of the very last of his kind: the superstar literary editor, the lone individual who could be charged with making possible the sort of books that defined a generation and culture. I never met Fisketjon, and only saw him in person once at an event for County Highway, where he was an editor, at a Manhattan bookstore last year. To know Fisketjon, truly, was to read the authors he edited: Cormac McCarthy, Donna Tartt, Bret Easton Ellis, Jay McInerney, and Richard Ford, among many others. He was, by all accounts, an absurdly meticulous editor. Read Ash Carter’s great, exhaustive profile or Matthew Specktor’s wonderful reminiscence of his time working with Fisketjon to get the full sense of the man. When it comes to his legacy, I have little to add to what’s been written already. What I can do, as a writer working today, is speak on where the editors like Fisketjon have gone."
+   "paragraphs": [
+    "The sudden death of Gary Fisketjon is a major loss for the literary world. He was, certainly, one of the very last of his kind: the superstar literary editor, the lone individual who could be charged with making possible the sort of books that defined a generation and culture. I never met Fisketjon, and only saw him in person once at an event for County Highway, where he was an editor, at a Manhattan bookstore last year. To know Fisketjon, truly, was to read the authors he edited: Cormac McCarthy, Donna Tartt, Bret Easton Ellis, Jay McInerney, and Richard Ford, among many others. He was, by all accounts, an absurdly meticulous editor. Read Ash Carter’s great, exhaustive profile or Matthew Specktor’s wonderful reminiscence of his time working with Fisketjon to get the full sense of the man. When it comes to his legacy, I have little to add to what’s been written already.",
+    "What I can do, as a writer working today, is speak on where the editors like Fisketjon have gone. There’s been a tremendous amount of discourse, of late, on contemporary literary publishing, and whether great novels appear anymore. They can and do, but undoubtedly the world that Fisketjon once operated in—high literary fiction from major imprints—is diminished. The books cannot impact the culture in the same way. Often, this is a lament that is made specific to the novel, but it shouldn’t be. Mass culture has fractured and doesn’t exist as it did in the twentieth century. Just as the novel can’t matter as it once did, neither can the new album, hit single, blockbuster film, or even star athlete. There are fewer stars in general, human beings known instantly to tens of millions of people, and those that are, like Taylor Swift or Tom Cruise, came of age in a different era. The stars are legacy stars. The same is true for literary fiction as it is all across the culture. Fame is more a niche concern. Does a writer need to be a star? Maybe not.",
+    "And we shouldn’t lament, for that alone, the fading of the Fisketjon era. Gaudy excess, on its own, doesn’t mean anything. I love that Fisketjon held a Richard Ford book party at the Palladium or lived in a sprawling loft with Jay McInerney in downtown Manhattan, but so what? Those are stories, tales, fodder for literary campfires and little more. What does actually did matter about Fisketjon and his contemporaries—legendary editors like the late Sonny Mehta, Gerald Howard, and Gordon Lish, among several others—was the ability they had to follow their own taste and invest in the writers that mattered to them. This is the entire story of Vintage Contemporaries. Fisketjon, a young editor, was handed a small imprint at Random House and permitted to sculpt the list to his liking. He was allowed, with a modest sum of money, to take risks on unknown writers and try to break them out. More importantly, there was nothing terribly unusual about this. Fisketjon, in taste and talent, was a rarity, but not the concept of an editor at a literary imprint being allowed, with some caveats, to decide what authors would appear in print. If Fisketjon, who was in his twenties and thirties during this era, still had to answer to bosses, it was understood that the final call on who got published at his imprint would be his alone."
+   ],
+   "v": 2
   }
  ]
 }

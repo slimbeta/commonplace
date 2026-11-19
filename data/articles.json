@@ -1,11 +1,12 @@
 {
- "updated": "2026-11-19T01:03:44+00:00",
+ "updated": "2026-11-19T01:20:57+00:00",
  "articles": [
   {
    "url": "https://www.wsj.com/arts-culture/books/the-letters-of-robert-frost-volume-4-review-the-roads-not-spoken-6d68ea23?st=gCT5bn&reflink=desktopwebshare_permalink",
    "blurb": "Robert Frost played the folksy Yankee farmer. His letters reveal grief, guilt, rage, and \"a daft tangle of adulterous affairs\"",
    "publication": "The Wall Street Journal",
-   "seen": "2026-11-19T01:03:44+00:00"
+   "seen": "2026-11-19T01:03:44+00:00",
+   "tries": 2
   },
   {
    "url": "https://harpers.org/archive/2026/12/too-much-sense-lauren-oyler-barthelme-postmodernism/",
@@ -19,7 +20,8 @@
    "url": "https://www.chronicle.com/article/everybody-is-going-to-be-made-obsolete",
    "blurb": "What happens when humans cease to be the primary agents of intellectual progress? We're about to find out",
    "publication": "The Chronicle of Higher Education",
-   "seen": "2026-11-19T01:03:44+00:00"
+   "seen": "2026-11-19T01:03:44+00:00",
+   "tries": 2
   },
   {
    "url": "https://worksinprogress.co/issue/accidental-discoveries/?v4",
@@ -57,7 +59,8 @@
    "url": "https://www.theatlantic.com/magazine/2026/12/aquaterra-ancient-human-migration/689029/?gift=2DPnH7-w5PunRuGFjgT5W-m3JXZDsV5PdxKRtZkm57k&utm_source=copy-link&utm_medium=social&utm_campaign=share",
    "blurb": "Aquaterra. A continent’s worth of land, once inhabited, now lies underwater. Archaeologists are finally realizing the possibilities",
    "publication": "The Atlantic",
-   "seen": "2026-11-19T01:03:44+00:00"
+   "seen": "2026-11-19T01:03:44+00:00",
+   "tries": 2
   },
   {
    "url": "https://theamericanscholar.org/the-knifes-edge/",

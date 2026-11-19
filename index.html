@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>The Commonplace</title>
+<meta name="description" content="A daily paper of the essays, reviews and ideas picked by Arts &amp; Letters Daily.">
+<meta name="theme-color" content="#f7f3ea" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#16140f" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Commonplace">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<script>(function(){try{var s=localStorage.getItem('cp-theme');if(s==='dark'||s==='light'){document.documentElement.dataset.theme=s;}}catch(e){}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&family=Libre+Caslon+Display&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap">
+<link rel="stylesheet" href="styles.css">
+<script src="app.js" defer></script>
+</head>
+<body>
+<main class="paper">
+  <header class="masthead">
+    <div class="masthead-side masthead-date" id="today"></div>
+    <a class="brand" href="./" aria-label="The Commonplace, home"><h1>The Commonplace</h1></a>
+    <div class="masthead-side header-actions">
+      <button id="theme-toggle" class="icon-button" aria-label="Toggle dark mode" title="Dark mode">
+        <svg class="theme-moon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M20.5 14.4A8.6 8.6 0 0 1 9.6 3.5 8.7 8.7 0 1 0 20.5 14.4Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+        <svg class="theme-sun" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.6" fill="none"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.4 1.4m11.2 11.2L19 19M19 5l-1.4 1.4M6.4 17.6 5 19" stroke="currentColor" stroke-width="1.6"/></svg>
+      </button>
+    </div>
+  </header>
+  <p class="tagline">Ideas, criticism &amp; debate &middot; <span id="updated">&nbsp;</span></p>
+
+  <nav class="sections" aria-label="Sections">
+    <button data-view="latest" class="active">Latest</button>
+    <button data-view="saved">Saved <span id="saved-count"></span></button>
+  </nav>
+
+  <div id="content" aria-live="polite">
+    <p class="empty">Setting the type&hellip;</p>
+  </div>
+
+  <footer class="colophon">
+    <p class="fleuron" aria-hidden="true">&#10086;</p>
+    <p>Every pick is chosen by the editors of <a href="https://www.aldaily.com/">Arts &amp; Letters Daily</a>; this is an unofficial reader. Stories open on the publisher&rsquo;s own site.</p>
+  </footer>
+</main>
+<template id="t-story">
+  <article class="story">
+    <a class="story-link" target="_blank" rel="noopener">
+      <figure class="story-photo" hidden><img alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"></figure>
+      <div class="story-text">
+        <p class="kicker"></p>
+        <h2 class="hed"></h2>
+        <p class="dek"></p>
+      </div>
+    </a>
+    <div class="story-meta">
+      <span class="age"></span>
+      <button class="save" type="button" aria-pressed="false">Save</button>
+    </div>
+  </article>
+</template>
+</body>
+</html>

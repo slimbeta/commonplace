@@ -1,6 +1,67 @@
 {
- "updated": "2026-11-20T01:15:21+00:00",
+ "updated": "2026-11-20T23:58:14+00:00",
  "articles": [
+  {
+   "url": "https://lithub.com/a-technological-history-of-ancient-porn/",
+   "blurb": "In 1819, a future king saw Pompeii’s erotic art and blushed. It stayed hidden for the next two centuries",
+   "publication": "Literary Hub",
+   "seen": "2026-11-20T23:58:14+00:00",
+   "fetched": true,
+   "description": "The preserved ruins of Pompeii and Herculaneum, entombed for millennia by the disastrous eruption of Mount Vesuvius in 79 CE, have, since excavations began in the mid-eighteenth century, been a gol…",
+   "paragraphs": [
+    "The preserved ruins of Pompeii and Herculaneum, entombed for millennia by the disastrous eruption of Mount Vesuvius in 79 CE, have, since excavations began in the mid-eighteenth century, been a goldmine of detail depicting day-to-day life in the Roman empire. A little too much detail, in fact. In 1819, when Francis I, heir to the Kingdom of the Two Sicilies, visited the newly unearthed artifacts at what is now the National Archaeological Museum in Naples, hoping to marvel at the frescoes, paintings and sculptures that had been hidden for nearly two thousand years, he was so mortified by the explicit nature of the Roman art that he promptly ordered much of it to be hidden away again.",
+    "The future monarch’s acute embarrassment marked the inception of the Neapolitan museum’s Gabinetto Segreto—“secret room”—which would go on to hide a myriad of artworks depicting every conceivable act of lovemaking between women, men, gender-ambiguous figures and even gods (not to mention swans and goats). This evidence of the ancient Romans’ uninhibited attitude to sexual fantasy, pleasure and diversity was so at odds with the prudish Christian mores that had come to dominate Europe millennia later, the powers that be decided the public was better off shielded from it, lest they be corrupted.",
+    "The story of Pompeii…reveals how pornography has long been the battleground on which morality and power and control are contested.",
+    "The erotic paintings and sculptures hidden in the Gabinetto Segreto would, for most of the following two centuries, remain accessible only to learned men carrying either permits detailing evidence of their high moral standing, or bribes. Fear of the defiling power of Roman fantasy ran so deep that the entrance to the room was, at one point, bricked up entirely. Apart from a brief window during the height of the sexual revolution, the “secret room” remained largely closed to the public until 2000. When it finally reopened, it was accompanied by educational texts, as the Gabinetto Segreto’s scientific curator Floriana Miele told me, that were meant to help visitors understand ancient Roman attitudes towards fertility, life and pleasure and prevent the works from being seen through our own era’s more crude perspective on the erotic.",
+    "After all, much of the art left behind by people in antiquity suggested that they had a “very different way of thinking about life and nature,” Miele said. But, as Christianity spread across Europe, attitudes began to shift. By the Middle Ages a distinct “attitude of prudish secrecy” had taken hold—a mindset that Miele said would prove particularly conducive to “prurient curiosity.” This is the mindset in which we remain stuck today, and it is partly responsible for the mess we’re now in. The story of Pompeii not only shows us how the definitions of the sexually acceptable and taboo have continued to change over time but reveals how pornography has long been the battleground on which morality and power and control are contested.",
+    "Perhaps precisely because it was forbidden, the erotic art of Pompeii and Herculaneum became highly influential to the Western understanding of pornography, even inspiring its first English-language dictionary definition. The word itself has ancient Greek roots—pornē, meaning prostitute, and graphien, meaning writing—and originally referred to texts or depictions related to sex work. But in 1864 Webster’s, an American dictionary, defined it as visual stimuli intended to elicit sexual desire—or, more specifically, “licentious painting […] examples of which exist in Pompeii.” Fueled by frenzied media interest in the Neapolitan excavations, the artifacts of Pompeii had effectively entered nineteenth-century pop culture. But choosing such an ancient reference to define pornography also allowed a kind of respectful distance and, perhaps, a feigned ignorance of the more contemporary erotic material in circulation at the time, from flagellation novels and clandestine memoirs to the explicit photographs and prints that were being passed discreetly across drawing rooms."
+   ],
+   "v": 2,
+   "image": "https://s26162.pcdn.co/wp-content/uploads/2026/11/Fragment_of_wall_painting_showing_two_lovers_in_bed_accompanied_by_a_servant_from_the_House_of_L._Caecilius_Jucundus_in_Pompeii_ca._50-79_AD_Naples_National_Archaeological_Museum_16700197554-1.jpg",
+   "title": "A Technological History of Ancient Porn"
+  },
+  {
+   "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+   "blurb": "Kurt Gödel left behind thousands of pages of unpublished jottings about math and logic. Turns out he discovered much more than anyone realized",
+   "publication": "The Guardian",
+   "seen": "2026-11-20T23:58:14+00:00",
+   "fetched": true,
+   "description": "Kurt Gödel left 1,009 pages of densely written text – much of it in an obsolete shorthand – which is now said to contain hundreds of proved theorems",
+   "paragraphs": [
+    "The Austrian logician Kurt Gödel was one of the most original thinkers of the 20th century. His two incompleteness theorems, published in 1931, transformed mathematics and paved the way for the digital age.",
+    "After his seminal results of the 1930s, Gödel published only a few papers. His unpublished work, however, runs to tens of thousands of pages, and is of great interest to historians of science.",
+    "Progress in the mathematical understanding of the text was painfully slow – about a page a week – until September, when von Plato enlisted the help of the AI model Claude. Within a couple of days, Claude had provided a comprehensive digest of the entire material, revealing Gödel had proved hundreds of theorems that no one knew about.",
+    "The most famous logician of modern times had, in fact, discovered significantly more than anyone had thought.",
+    "“I was flabbergasted,” said von Plato. “The workbooks not only contain dozens of anticipations of results not known until the 70s and 80s, but they also contain 14 themes in logic that have not been pursued. Gödel was far ahead of his time.”",
+    "Gödel changed the course of logic because he revealed the limits of mathematical knowledge. His incompleteness theorems show that in all mathematical systems there are true statements that can neither be proved or disproved. Yet while this result was a blow to previous generations of logicians, who had hoped that all truths were verifiable, Gödel’s work pushed the field in new directions, inspiring Alan Turing to write his 1936 paper that began the theory of modern computation.",
+    "In 1940, Gödel fled Austria under the Nazis. He settled in Princeton, New Jersey, and became a close friend of Albert Einstein at the Institute of Advanced Study. Increasingly paranoid in his later years, he refused to eat food that was not cooked by his wife, and died of starvation in 1978.",
+    "Von Plato said he had started his Gödel project in 2017 because he was facing mandatory retirement from Helsinki University. “What should I do to make myself indispensable? Oh yes, I’ll start reading Gödel’s enigmatic shorthand pages!” He received a €2.5m (£2.1m) grant from the European Research Council, taught himself Gabelsberger shorthand – “I am one of only six people who can read it in the world” – and assembled a small team.",
+    "In August, at a conference in France about AI and theorem proving, von Plato met computer scientists who suggested that he co-opt the help of Claude in trying to make sense of the workbooks. On his return to Helsinki he began the process, showing Claude his transcriptions of the workbooks, as well as six books he had previously written on Gödel and other secondary scientific literature.",
+    "“The AI can connect all the pieces in a thousand pages. It can see all of Gödel’s writings as one piece.”"
+   ],
+   "v": 2,
+   "image": "https://i.guim.co.uk/img/media/6eeccf216579fe2181ae737d30f31abd7590125c/210_58_1759_1407/master/1759.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=334efc63d7472a97d72be0ffd23af8bb",
+   "title": "‘Ahead of his time’: AI helps unlock discoveries hidden in notebooks of man who transformed maths"
+  },
+  {
+   "url": "https://www.poetryfoundation.org/articles/1838058/a-mere-140-pages",
+   "blurb": "Truisms, abstractions, and flatness. The key to admiring John Berger’s poetry is admitting that he has a tin ear",
+   "publication": "The Poetry Foundation",
+   "seen": "2026-11-20T23:58:14+00:00",
+   "fetched": true,
+   "description": "Poems, readings, poetry news and the entire 110-year archive of POETRY magazine.",
+   "paragraphs": [
+    "Sometimes, seeming pained, he would press his hands into his forehead, as if trying to prevent the thoughts from evaporating through his brow. He was forcing them down the channel that runs out of his mouth. Nearly every time the writer John Berger was interviewed on camera, he did this, often more than once. As Geoff Dyer comments in an introduction to Berger’s selected essays, “we come close to witnessing thought as an act of almost physical labour.” Berger’s gesture says: not almost.",
+    "The story of Berger’s life, told most fully in Tom Overton’s recent biography John Berger: From Life (Verso, 2026), attests to constant effort. He was born a century ago in London and lived to the age of ninety. In that time, he learned to draw, paint, and write; he published regularly in The New Statesman, The Observer, and New Society; he scripted television programs and starred in them; he published essays, criticism, nonfiction books, and novels, including the Booker Prize-winning G. (1972); he was married four times and lived among the émigré bohemians of London, the cosmopolitans of Geneva, and the peasants of the Haute-Savoie in southeastern France; he herded animals and worked harvests; and “more than anything else,” Overton says, “[he] was a writer of letters.”",
+    "For someone who produced so much, what would it mean for thought to be an act of physical labor? Clearly, I mean more than an art that finds the mind’s construction in the face. As in Berger’s hands, so on his page: there is something very manual and material about the writing itself, never mind the fact that he did so much of it.",
+    "We might nevertheless appreciate the scarcity of his poetic output exactly as we appreciate the delicate crimson stigmas of the purple crocus flower; approximately 75,000 of these flowers are needed to yield one pound of dry saffron. For readers, Berger’s poetry is a similar sort of rare harvest, the byproduct of his prosaic labor, heralding its own high price. His poetry insists on its costliness (or its rarity, which is the same thing) in two ways. First, the lines are universally short (one or two metrical feet, typically), and tend to stomp and halt rather than flow:",
+    "Though each sentence is a semantic unit, the stuttering cadence introduced by the line breaks reveals a certain effort in deciding—or digging up, as it more often feels—the syntax itself.",
+    "Second, Berger’s poems often introduce a labor of de- and re-contextualization for the reader, likely because most of his published poetry first appeared in print as part of his prose works. Novels like Pig Earth (1979), about the peasant community in a French alpine village, are seeded with little poems relating to the characters’ lifeworld. A Seventh Man (1975), his photo-essay documenting migrant laborers with Jean Mohr, contains verse about executed prisoners. It is tempting to experience these insertions as interruptions. (Even this interpretation would seem generous. How often have you come across a poem suddenly inserted into a novel and thought: I’m glad this is here?!) But Berger’s oeuvre is one long refusal of generic constraints. Dyer, whose first book, Ways of Telling (1986), is a study of Berger, has stated elsewhere that “John Berger radically altered and enlarged my ideas of what a book could be.” Indeed, we can see in Dyer’s own works—which, despite lacking poetry, contain much in the way of unexpected media—the salutary effects of what academics would call interdisciplinarity trickling down."
+   ],
+   "v": 2,
+   "image": "https://s3-us-east-2.amazonaws.com/cdn.poetryfoundation.org/content/images/_1200x630_crop_center-center_82_none/berger_final.png?mtime=1794324626",
+   "title": "A Mere 140 Pages"
+  },
   {
    "url": "https://www.theideasletter.org/essay/dark-imagination/",
    "blurb": "David Graeber was a brilliant, influential thinker. He was also largely wrong and had a surprisingly dark view of humanity",

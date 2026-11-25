@@ -1,6 +1,66 @@
 {
- "updated": "2026-11-24T04:44:31+00:00",
+ "updated": "2026-11-25T00:39:31+00:00",
  "articles": [
+  {
+   "url": "https://lareviewofbooks.org/article/terence-tao-six-math-essentials-ai-machine-learning/",
+   "blurb": "Terence Tao: AI will radically alter the future of math, but “right now, a lot of what people are doing with AI is unimaginative”",
+   "publication": "Los Angeles Review of Books",
+   "seen": "2026-11-25T00:39:31+00:00",
+   "fetched": true,
+   "description": "Talking to mathematician Terence Tao about AI and the foundations of mathematics.",
+   "paragraphs": [
+    "LARB publishes daily without a paywall as part of our mission to make rigorous, incisive, and engaging writing on every aspect of literature, culture, and the arts freely accessible to the public. Help us continue this work with your tax-deductible donation today!",
+    "This interview is part of The Rules We Live By, a series devoted to asking what it means to be a human living by an ever-evolving set of rules. The series is made up of conversations with those who dictate, think deeply about, and seek to bend or break the rules we live by.",
+    "TERENCE TAO HAS BEEN BUSY. Along with publishing his first book for a popular audience, Six Math Essentials (2026), he has become the unofficial face of the math community’s response to artificial intelligence. An early proponent of using technology in his field, Tao is now cautious, to say the least. In a social media post from early October amid the release of hundreds of AI-generated solutions, he wrote that “the indiscriminate use of powerful solution-extraction tools can achieve the immediate short-term goal of solving problems at hand, but at the cost of sustaining the ecosystem for the next wave of progress, or in understanding the progress already obtained.”",
+    "Tao is not against the use of AI. In fact, he imagines a bright future for his field powered in part by AI, what he calls “Math 2.0.” It is a world where “we have both the understanding and the advanced AI technology.” In this world, rather than one textbook approach for presenting a solution, we will have hundreds. “I think that will make us richer,” he tells me, with a “more refined mathematical palette.” Mathematicians of the future will be “interpreters of results, rather than just raw generators of results. We can mechanize results to a large extent, but to interpret them, we will need to do so in novel and very humanistic ways.” But getting there will be messy. It requires a complete overhaul of math’s value system.",
+    "Six Math Essentials does not cover this recent crisis in math. Instead, it captures what has made math so rewarding to Tao. It’s not just the hidden patterns math reveals about our world, or the technological applications—including modern AI systems. It’s also what Tao calls the “beautiful mixture of play and seriousness in mathematics” that is all too often unknown to the wider public, and that eventually leads to, yes, solutions, but also, more critically, to understanding. That is what is at risk if we do not correctly calibrate human-AI partnerships.",
+    "In our conversation, we discuss the relationship between play and understanding, math’s foundations, the current crisis in math caused by AI, how AI can be best applied, and what brings Tao hope for his field.",
+    "JULIEN CROCKETT: I want to start with a quote from your Mathstodon social media account. Shortly after OpenAI announced that one of its models had solved the Navier-Stokes Millennium Prize Problem, you posted the following: “In this modern era of heavy AI use, it is important to remember what it is like to be a child.” Why?"
+   ],
+   "v": 2,
+   "image": "https://cdn.lareviewofbooks.org/unsafe/fit-in/1200x0/filters:format(jpeg):quality(75)/https%3A%2F%2Fassets.lareviewofbooks.org%2Fuploads%2Fsix%20math%20essentials.jpg",
+   "title": "Math 2.0"
+  },
+  {
+   "url": "https://www.compactmag.com/article/do-you-want-a-human-world/",
+   "blurb": "\"When we habitually act on advice from a man-made thing whose wisdom we rate above our own, we have ceased to govern ourselves\"",
+   "publication": "Compact",
+   "seen": "2026-11-25T00:39:31+00:00",
+   "fetched": true,
+   "description": "Artificial intelligence: The phrase and the concept were invented by cognitive scientists in the 1950s.",
+   "paragraphs": [
+    "Artificial intelligence: The phrase and the concept were invented by cognitive scientists in the 1950s. Half a century later, the name was picked up by West Coast digital entrepreneurs with an interest in arranging a welcome for a new commodity. They had no interest in giving their product a description that would fairly characterize the machine, its nature and its limitations.",
+    "AI machines are problem-solvers. By contrast, we commonly use the word “intelligence” to characterize thinking: a human capacity that can’t be reduced to a utilitarian function. One person’s knowledge of a given fact is identical with another person’s knowledge of the same fact; but it would make no sense to say what happens in my mind when I think about friendship is the same as what happens in the mind of my friend John. Still, why should there be any difference between my thinking and John’s thinking—especially since we are both thinking about friendship and we are friends? The reason lies in the irreducible individuality of persons.",
+    "Knowledge of a fact denotes the successful capture of a datum. Thinking is a larger organic process: the bodily and intellectual activity of a human being. Once you have memorized a fact, your knowledge of the fact can’t change without going astray. Thinking is different: Your mind can change precisely because you have been thinking; and this is true even where the fact that furnished the motive for thinking stays the same. When you think about something and change your mind, the change needn’t have come from the capture of additional data. It is just as likely to come from a more elusive source, for which our best word seems to be experience.",
+    "Does a knowledge machine have experience? Or (if that question is puzzling), can the machine vacuum up the recorded data of a person’s life with a fidelity that renders the record identical with the experience? The idea is absurd, for reasons that turn us back again to what we mean by experience: namely, thoughts and feelings connected with our particular encounters with things, people, and events in the world. The encounter is physical, bodily, and it uniquely affects a single self.",
+    "The machine, however, can arrive at a credible counterfeit of decisions I might make from experience, which it translates into probabilities and options: kill or cure or something between. The machines can draw on a surplus of relevant information. This storehouse they have acquired by a process of collecting, sorting, and triangulating from a shoreless ocean of specimen-data scraped off the internet—data the machines have lifted from public records, academic articles, laboratory notes, billions of books, official and corporate memoranda, and random or considered comments available on Twitter, Reddit, and other messaging sites.",
+    "It might still be asked: How could such a process of sorting have enabled a machine not only to diagram useful decision-trees but to compose sentences of plausible person-to-person advice? The answer is that the machine divides a trillion by a trillion to produce a synthetic response that seems the best match for me. The sample from all the scrapings has been narrowed and refined at every step, by being indexed to people ostensibly like me and situations ostensibly like mine."
+   ],
+   "v": 2,
+   "image": "https://storage.ghost.io/c/65/af/65afbdb5-30bf-4286-acc4-9535069adb42/content/images/size/w1200/2026/11/AP25016517116911.jpg",
+   "title": "Do You Want a Human World?"
+  },
+  {
+   "url": "https://www.propublica.org/article/dc-metro-smithsonian-american-history-plan",
+   "blurb": "A man in a gray tartan suit typed away on the Washington DC metro — and so a plan to reinvent the Smithsonian was revealed to the world",
+   "publication": "ProPublica",
+   "seen": "2026-11-25T00:39:31+00:00",
+   "fetched": true,
+   "description": "The Trump administration has criticized the Smithsonian’s National Museum of American History for promoting “radical activist ideology.” Now, on a crowded Metro car, a staffer has — inadvertently — revealed what may be the White House’s plans.",
+   "paragraphs": [
+    "Since the Trump administration erupted this summer with criticism of the Smithsonian National Museum of American History for promoting “radical activist ideology” and precipitated the departure of Smithsonian secretary Lonnie Bunch, the White House’s next step on this front of the culture wars has been unclear.",
+    "Now the plan may have been revealed — inadvertently — in a crowded car on Washington, D.C.’s Metro transit system.",
+    "In the last week of October, as political Washington was focused on the coming midterm elections, a commuter on the Orange Line from the Northern Virginia suburbs was startled to see displayed, on the laptop of a man seated adjacent in a gray tartan suit, a document titled “Smithsonian Institution Renewal Plan.” The commuter snapped a few phone photos over the man’s shoulder and dispatched them to ProPublica.",
+    "If you see something in public you think ProPublica should know about, there are a few ways you can reach us securely.",
+    "The 25-item list laid bare a comprehensive effort to completely transform the history museum, which employs several hundred people, is home to several million artifacts and draws close to 2 million visitors per year. If implemented in anything like the proposed form, it would represent an unprecedented assertion of White House control over the Smithsonian, which is structured to be independent.",
+    "Among the actions listed on the plan: firing the museum’s director, Anthea Hartig, and a dozen other top administrators and curators; announcing a new permanent exhibit called “The Riches of Our Western Civilization Inheritance” and an exhibit on “Great Families of American History”; and announcing a new “Colossus Statue” of George Washington for the museum’s entrance.",
+    "Other items on the list harkened back to a scathing 162-page critique of the museum released by the White House on July 4. That report was followed by back-to-back congressional hearings and a Trump executive order requiring signs to be erected outside the museum warning about the “ideological capture” on display there. While the pressure helped prompt Bunch’s departure as head of the Smithsonian, the warning signs have yet to go up, and it was unknown exactly what fixes the White House had in mind for the flaws that it so loudly decried.",
+    "Until now, perhaps. The plan displayed on the staffer’s laptop would issue new interpretative guidelines for exhibits, ending the museum’s reliance on a diversity style guide. It would review the Smithsonian’s strategy for traveling exhibitions, including halting one now underway, “The Bias Inside Us.” It would review the Smithsonian’s financial grants to “woke third parties” such as the American Alliance of Museums. And it would overhaul the museum’s online K-12 curriculum to “realign educational materials with patriotism, not ideology.” For instance, the website would drop the “Becoming US” module on immigration and launch a “Founders-focused curriculum titled something like Architects of Liberty: The Heroic Journey of America’s Founders OR Profiles in Liberty: Washington and America’s Heroic Men of Courage.”"
+   ],
+   "v": 2,
+   "image": "https://www.propublica.org/wp-content/uploads/2026/11/CLEAN_Smithsonian-subway_maxHeight_3000_maxWidth_3000-1.jpg?resize=2000,1333",
+   "title": "Spotted on the D.C. Metro: Trump Staffer Accidentally Reveals Plan for Smithsonian Overhaul"
+  },
   {
    "url": "https://www.lrb.co.uk/the-paper/v48/n21/richard-seymour/imputations-of-malice",
    "blurb": "Who were the Cultural Marxists? They were the losers of the 20th century: defeated, jailed, murdered, or exiled",

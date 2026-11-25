@@ -1,6 +1,50 @@
 {
- "updated": "2026-11-25T00:39:31+00:00",
+ "updated": "2026-11-25T19:54:40+00:00",
  "articles": [
+  {
+   "url": "https://www.chronicle.com/article/the-digital-humanities-was-a-dead-end",
+   "blurb": "The digital humanities promised to save the English department by buying a few computers and calling it a lab. The plan didn't work",
+   "publication": "The Chronicle of Higher Education",
+   "seen": "2026-11-25T19:54:40+00:00"
+  },
+  {
+   "url": "https://www.vanityfair.com/story/worlds-top-literary-scholars-targeted-by-chinese-spy-op",
+   "blurb": "The “International Institute of Literature and Arts” honors top literary scholars. Is it a fiction invented by Chinese spies?",
+   "publication": "Vanity Fair",
+   "seen": "2026-11-25T19:54:40+00:00",
+   "fetched": true,
+   "description": "A mysterious literary academy with ties to China has claimed some of the biggest Ivy League and Oxbridge academics as its members. But US intelligence experts tell Vanity Fair they suspect the society is being used for ulterior motives.",
+   "paragraphs": [
+    "Stephanie Newell, an English professor at Yale University, was thrilled when she got the email inviting her to be an honorary fellow at the International Institute of Literature & Arts. She had never heard of IILA, but she recognized several prestigious names of fellow big-time literature professors who were listed among its fellows. “I saw Gayatri Spivak and Homi Bhabha, Franco Moretti, and I was like, Oh, finally,” she says.",
+    "The letter, signed by one Julian Lee “on behalf of the Secretariat” of IILA, invited Newell to join highly esteemed literature scholars at the Ivies, Stanford, Oxford, and Cambridge. Newell, who has taught world and African literature at Yale for more than a decade, had been inducted into other prestigious societies with many of these same scholars, such as the British Academy.",
+    "This one, it seemed, came without strings. “There are no fees or membership dues,” read the letter. “Participation in award reviews, academic meetings, and consultation will be arranged with you in advance and subject to your availability.”",
+    "It seemed like a no-brainer. They’d also given her an award, and she even decided to accept an offer to join IILA’s academic committee. Yale was pleased for her too. The English department posted an announcement congratulating her on receiving the award.",
+    "Soon, Newell says, she was listed among IILA’s leadership, even though she’d only agreed to be a committee member. “Please will you remove my name,” she wrote in an email to Lee.",
+    "Her concerns compounded when she received a draft of IILA’s bulletin, featuring a perplexingly poorly written biography—not what one would expect from a fancy literary academy. “Please delete my profile from the Bulletin,” Newell asked Lee, “as it contains too many errors for circulation, and is very poorly written.”",
+    "While the institute’s membership ranks included many of Newell’s high-profile peers, there were also a number of names on the list that seemed a bit random. Pat Barker, a novelist rather than a scholar, seemed out of place among the critics and theorists. There were, however, about half a dozen Chinese professors (including one who had already died).",
+    "“I’ve always been a bit of a doubting Thomas,” Newell wrote in an email to a colleague on the list who confirmed that she, too, had accepted the fellowship despite not knowing who was behind it. “I’m starting to wonder what’s going on and whether we’ve been somehow flattered into something that doesn’t exist!” Newell wrote.",
+    "That’s when Newell, who was my professor when I was a Yale undergraduate, decided to reach out to me about “a fake academic institute that has sucked in numerous very high-profile professors.” This was a couple of weeks ago, right after the news broke of Jensen Huang’s affair with a woman US authorities believed to be a Chinese spy. It made sense what China would want from Huang, the CEO of the powerful AI chip maker Nvidia, but could world literature professors really be a target? I started digging, which led me down a rabbit hole that included an entire constellation of shadow academies that former national security officials say have real potential to be part of a Chinese intelligence operation."
+   ],
+   "v": 2,
+   "image": "https://media.vanityfair.com/photos/6b047a14e4236fbefe79eecd/16:9/w_1280,c_limit/Screenshot%202026-11-23%20at%2012.38.13%E2%80%AFPM.png",
+   "title": "Are the World’s Top Literary Scholars Being Targeted by a Chinese Spy Op?"
+  },
+  {
+   "url": "https://www.newyorker.com/magazine/2026/11/30/after-the-flush-nick-kawa-book-review",
+   "blurb": "We are blithely conversant with the toilet as a consumer product, household good, or luxury signifier. We are less prone to considering what goes inside it",
+   "publication": "The New Yorker",
+   "seen": "2026-11-25T19:54:40+00:00",
+   "fetched": true,
+   "description": "Turning sewage into fertilizer gives human waste a useful second life. What happens to the forever chemicals that come with it?",
+   "paragraphs": [
+    "When Henry Moule was appointed vicar of Fordington, a village in the rural English county of Dorset, in 1829, the locals did not greet the news with enthusiasm. No wonder: Moule, then twenty-eight years old, was a vigorous evangelical, while his parishioners, who were mostly impoverished farmers, had “great contempt of religion,” as Moule’s youngest son, Handley, later wrote in his memoirs. The locals resented Moule’s efforts to ban local horse racing, which he perceived to be immoral—the races’ main attraction for some, no doubt—and he even managed to alienate the members of the church choir, who quit en masse. Thomas Hardy, who grew up nearby, drew upon the clergyman for the character of the Reverend James Clare, the killjoy father of Angel Clare in “Tess of the d’Urbervilles”; when Angel visits the family home bearing a prized bottle of mead, the gift is immediately reserved for medical emergencies rather than heartily enjoyed at table.",
+    "As the years wore on, though, the residents of Fordington had reason to be thankful for Moule. When the village was repeatedly struck by cholera, Moule not only entered blighted homes to tend to the sick but later sought to remedy what he called “the evils of the water system of sewage”: household waste draining directly into the nearby millpond. Moule first experimented with his own household’s effluents—which must have been considerable, given that he fathered eight sons—by filling in the vicarage’s cesspool and digging trenches in which ordure could be folded into the soil. He went on to devise a household contraption to facilitate the process: a wooden commode equipped with a hopper that released a measured amount of dry earth into a bucket below the seat. The system, Moule claimed, both eliminated odors and produced a mixture that, when dried, could serve as valuable fertilizer. After the method was instituted at a local school that educated some seventy boys, a farmer paid ten shillings a month for the privilege of carting away the shit-enriched earth. Moule patented his invention in both the U.K. and the U.S.; the Dorset Museum has an example in its collection. A sturdy chairlike structure of polished wood, with a galvanized-metal bucket and hopper, it resembles the sort of gritty hardware that might be used as décor in an artisanal restaurant with a meat-forward menu and waitstaff in leather aprons.",
+    "Despite the Reverend Moule’s efforts to induce households to harness the powers of their effluent, his innovation, and others like it, were doomed. Toward the end of the nineteenth and the beginning of the twentieth centuries, a more congenial technology became increasingly available: the flush toilet. Using a burst of water to dispel waste swiftly, rather than relying on organic material to transform it slowly—and equipped with the eighteenth-century innovation of the U-bend pipe, in which a small, frequently replenished reservoir of water forms a barrier against noxious fumes and nasty smells—the flush toilet had, as one late-nineteenth-century sanitary engineer acknowledged, “certain advantages” pertaining to “comfort, convenience and health.” As earth closets and privies gradually gave way to flush toilets plumbed into large-scale sewer systems, Americans in particular embraced what the anthropologist Nick Kawa, in “After the Flush: Rethinking the Future of Human Waste” (University of California), characterizes as a “flush and forget” mind-set."
+   ],
+   "v": 2,
+   "image": "https://media.newyorker.com/photos/6afc73c66e829433e3a87ae6/16:9/w_1280,c_limit/r50084.jpg",
+   "title": "What Happens After We Flush?"
+  },
   {
    "url": "https://lareviewofbooks.org/article/terence-tao-six-math-essentials-ai-machine-learning/",
    "blurb": "Terence Tao: AI will radically alter the future of math, but “right now, a lot of what people are doing with AI is unimaginative”",
